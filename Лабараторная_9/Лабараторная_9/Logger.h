@@ -13,9 +13,5 @@ public:
         std::cout << "[LOG] " << entry << std::endl;
     }
 
-    void showAll() const {
-        for (const auto& entry : logs) {
-            std::cout << entry << std::endl;
-        }
     }
 };
